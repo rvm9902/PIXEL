@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB e CMYK - Entendendo os Modelos de Cores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+        }
+        .comparison {
+            display: flex;
+            justify-content: space-between;
+        }
+        .comparison div {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RGB e CMYK - Entendendo os Modelos de Cores</h1>
+    </header>
+    
+    <section>
+        <h2>O que é RGB?</h2>
+        <p>RGB é um modelo de cores aditivo baseado nas cores primárias da luz: Vermelho (Red), Verde (Green) e Azul (Blue). É utilizado em telas digitais, como monitores, TVs e smartphones. As cores são criadas através da combinação de diferentes intensidades dessas três cores.</p>
+    </section>
+
+    <section>
+        <h2>Funcionamento do Pixel no RGB</h2>
+        <p>Em dispositivos que utilizam RGB, cada pixel é formado por três subpixels: um vermelho, um verde e um azul. A variação da intensidade de cada subpixel cria a cor final do pixel. Quando todos estão no máximo, a cor resultante é branca; quando todos estão no mínimo, a cor resultante é preta.</p>
+    </section>
+
+    <section>
+        <h2>O que é CMYK?</h2>
+        <p>CMYK é um modelo de cores subtrativo, baseado nas cores Ciano (Cyan), Magenta (Magenta), Amarelo (Yellow) e Preto (Key). Ele é usado em impressões, onde as cores são obtidas através da mistura de tintas, cada uma absorvendo parte da luz refletida pelo papel.</p>
+    </section>
+
+    <section>
+        <h2>Comparação entre RGB e CMYK</h2>
+        <div class="comparison">
+            <div>
+                <h3>RGB</h3>
+                <ul>
+                    <li>Modelo aditivo (luz).</li>
+                    <li>Usado em telas digitais.</li>
+                    <li>Combina Vermelho, Verde e Azul.</li>
+                    <li>Branco é a soma máxima das cores.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>CMYK</h3>
+                <ul>
+                    <li>Modelo subtrativo (tinta).</li>
+                    <li>Usado em impressões.</li>
+                    <li>Combina Ciano, Magenta, Amarelo e Preto.</li>
+                    <li>Branco é a ausência de tinta (papel branco).</li>
+                </ul>
+            </div>
+        </div>
+        <p>Desenvolvido por Renato Vieira Martins</p>
+    </section>
+</body>
+</html>
